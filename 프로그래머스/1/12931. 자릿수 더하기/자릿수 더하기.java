@@ -4,13 +4,13 @@ public class Solution {
     public int solution(int n) {
         int answer = 0;
         
-        if (n == 0) return 0;
-        
-        int size = Integer.toString(n).length();
-        
-        for (int i=size; i>=0; i--){
-            answer += n / (int) Math.pow(10, i);
-            n = n % (int) Math.pow(10, i);
+        while(true){
+            answer += n % 10;
+            n = n / 10;
+            if (n < 10) {
+                answer += n;
+                break;
+            }
         }
 
         return answer;
