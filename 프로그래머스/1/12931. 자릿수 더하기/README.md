@@ -2,6 +2,9 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12931) 
 
+### 회고
+각 자릿수는 n % 10 으로 구할 수 있다, 그리고 해당 n 을 10으로 계속 나눠서 10보다 작아질 때 루프를 중단한다.
+
 ### 성능 요약
 
 메모리: 65.3 MB, 시간: 0.01 ms
