@@ -2,6 +2,14 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12932) 
 
+### 회고
+long n % 10 이후 int 강제 캐스팅 [level 1] 자연수 뒤집어 배열로 만들기 - 12932 
+
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12932) 
+
+### 회고
+long n % 10 이후 int 강제 타입 캐스팅을 하면 손실없이 가능하다.
+
 ### 성능 요약
 
 메모리: 61.4 MB, 시간: 0.02 ms
