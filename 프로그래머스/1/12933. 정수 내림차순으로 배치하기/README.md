@@ -2,6 +2,13 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12933) 
 
+### 회고
+배열을 정렬할 때 Arrays.sort((T[] a, Comparator<? super T> c)) Comparator 를 사용하여 오름, 내림 차순 파라미터를 주고 싶을 땐 제너릭이 들어가서 참조 타입만 받을 수 있다.
+
+원시 타입: {int, long, char, double, boolean, byte,  short, float}
+
+참조 타입: {Integer, Long, Character, Double, Boolean, Byte, Short, Float}
+
 ### 성능 요약
 
 메모리: 63.3 MB, 시간: 0.34 ms
