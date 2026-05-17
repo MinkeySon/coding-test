@@ -9,7 +9,21 @@ class Solution {
         
         int min = Arrays.stream(arr).min().getAsInt();
         
-        return Arrays.stream(arr).filter(x -> x != min).toArray();
+        int [] answer = new int[arr.length - 1];
+        int index = 0;
+        boolean isRemoved = false;
+        
+        for (int e : arr){
+            if (!isRemoved && e == min){
+                isRemoved = true;
+                continue;
+            }
+            
+            answer[index++] = e;
+            
+        }
+        
+        return answer;
         
     }
 }
