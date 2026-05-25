@@ -2,6 +2,9 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/147355) 
 
+### 회고
+타입 변환하는 문제에서 런타임 에러 발생 시 범위 내 변환이 가능한지 꼭 확인하기.
+
 ### 성능 요약
 
 메모리: 64 MB, 시간: 3.96 ms
